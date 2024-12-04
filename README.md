@@ -13,8 +13,8 @@ https://github.com/Azure/azure-sdk-for-js/blob/main/documentation/Bundling.md
 
 
 ```sh
-docker build -t node-22 .
-docker run --rm -it -v $PWD:/app node-22 bash ./build-rollup-ts.sh
+docker build -t js-azure-storage-blob-bundle .
+docker run --rm -it -v $PWD:/app js-azure-storage-blob-bundle bash ./build-rollup-ts.sh
 ```
 
 `./dist/azure-storage-blob.js` が出来上がるので、ブラウザで読めるようにHTTPサーバへ配置します。
