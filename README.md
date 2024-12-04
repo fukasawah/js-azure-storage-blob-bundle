@@ -1,5 +1,5 @@
 
-Azure-SDK for JavaScriptの`@azure/storage-blob`をブラウザ向けにバンドルします。
+Azure-SDK for JavaScriptの`@azure/storage-blob`の`BlockBlobClient`をブラウザ向けにバンドルします。
 
 ### 参考
 
